@@ -37,7 +37,15 @@
 
 /* Media Query */
 @media (max-width: 991.5px){
-    .right-nav{
-        display: none;
+    .top-wrapper{
+        position: relative;
     }
+    .nav-icons{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 75px;
+    top: -2px;  
+    gap: 10px;   
+    }  
 }

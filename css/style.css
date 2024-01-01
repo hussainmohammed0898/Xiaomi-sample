@@ -31,3 +31,13 @@
 .nav-item{
     padding: 2px 8px;
 }
+
+
+
+
+/* Media Query */
+@media (max-width: 991.5px){
+    .right-nav{
+        display: none;
+    }
+}

@@ -54,6 +54,27 @@
     color: black;
 
 }
+.content-wraper-bg{
+    background-color: rgb(239,239,239);
+}
+.picture-caption{ 
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 40vw;
+}
+
+.link-white{
+    text-decoration: none;
+}
+.link-white:hover{
+    text-decoration: underline;
+    color: white;
+}
+.picture-caption-2{
+    top: 10%;
+}
+ 
 
 
 
@@ -71,4 +92,14 @@
     top: -2px;  
     gap: 10px;   
     }  
+}
+@media screen and (max-width:768px){
+    .picture-caption{
+        width:100vw;
+    }
+}
+@media screen and (min-width:285px) and (max-width:334px){
+    .picture-caption{
+        width:200vw;
+    }
 }

@@ -74,6 +74,22 @@
 .picture-caption-2{
     top: 10%;
 }
+.link-orange{
+    text-decoration: none;
+    color: #ff6900;
+    
+}
+.link-orange:hover{
+    text-decoration: underline;
+    color: #ff6900;  
+}
+.right-section{
+    background-color: white;
+}
+
+.right-section h3{
+    color: black;
+}
 
 
 

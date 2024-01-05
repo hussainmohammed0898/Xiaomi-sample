@@ -74,6 +74,10 @@
 .picture-caption-2{
     top: 10%;
 }
+
+
+
+
  
 
 
@@ -101,5 +105,17 @@
 @media screen and (min-width:285px) and (max-width:334px){
     .picture-caption{
         width:200vw;
+    }
+}
+@media screen and (max-width:1100px){
+    .right-caption h3{
+        font-size: 20px;
+        
+    }
+}
+@media screen and (max-width:850px){
+    .right-caption h3{
+        font-size: 15px;
+        
     }
 }
